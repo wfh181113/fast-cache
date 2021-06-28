@@ -1,12 +1,12 @@
 {
-  "name": "fast-cache",
+  "name": "fast-cache-j1y",
   "version": "0.0.1",
   "description": "短小精悍的前端缓存工具，防止内存“侧漏”",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "webpack",
-    "example":"http-server -p 8880"
+    "example": "http-server -p 8880"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,8 @@
     "webpack": "^5.39.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "user": "0.0.0"
   }
 }
