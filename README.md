@@ -11,7 +11,12 @@ https://github.com/wfh181113/fast-cache/releases
 - CDN
  http://unpkg.com/fast-cache-my-p/release/bundle.js
 ## 快速使用
-简单接入的文档
+```js
+    var FC = window.FastCache
+    var cache = new FC()
+    cache.set('a',100)
+    alert(cache.get('a'))
+```
 
 - [使用文档](./doc/use/README.md)
 - [二次开发文档](./doc/dev/README.md)
